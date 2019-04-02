@@ -16,6 +16,6 @@ class String
 
   def count_sentences
     binding.pry
-    self.scan(/[a-z][?!.]\s[A-Z]/).length
+    self.scan(/[a-z][?!.]\s[a-zA-Z]/).length
   end
 end
