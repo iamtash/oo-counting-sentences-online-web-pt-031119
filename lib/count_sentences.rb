@@ -7,7 +7,6 @@ class String
   end
 
   def question?
-    binding.pry
     self.end_with?("?")
   end
 
